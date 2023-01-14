@@ -1,0 +1,9 @@
+rootProject.name = 'microservices-saga'
+
+include 'commons'
+include 'notification-service'
+include 'order-service'
+include 'payment-service'
+include 'product-service'
+include 'shipping-service'
+include 'user-service'
