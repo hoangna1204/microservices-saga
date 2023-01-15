@@ -15,6 +15,6 @@ public class UserProjection {
 
   @QueryHandler
   public User getUser(GetUserQuery query) {
-    return userRepository.findById(query.getUserId()).orElseThrow();
+    return userRepository.findById(query.userId()).orElseThrow();
   }
 }
